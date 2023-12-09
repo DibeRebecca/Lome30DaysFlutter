@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterchallenge/start.dart';
 import 'package:flutterchallenge/talents.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 255, 255, 255)),
         useMaterial3: true,
       ),
-      home: const Talent(),
+      home: const GetStarted(),
     );
   }
 }

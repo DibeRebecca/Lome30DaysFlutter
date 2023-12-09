@@ -23,7 +23,7 @@ class _TalentState extends State<Talent> {
              onPressed:(){},
              icon:Icon(Icons.menu,color: Colors.white,),
      ) ],
-      backgroundColor: Colors.purple,
+      backgroundColor: Colors.brown,
       bottom: const TabBar(
         unselectedLabelStyle:TextStyle(fontSize: 18),
         unselectedLabelColor: Colors.white,
@@ -59,13 +59,13 @@ class _TalentState extends State<Talent> {
                     decoration: BoxDecoration(
                     boxShadow: const [
                     BoxShadow(
-                      blurRadius: 1.0,
+                      blurRadius: 2.0,
                       ),],
                       gradient: const LinearGradient (  
                       // colors for gradient
                       colors: [ 
                         Colors.blue,
-                        Color.fromARGB(255, 95, 175, 240),
+                        Colors.blue,
                       ],
                     ),
                       borderRadius: BorderRadius.circular(20),
@@ -149,8 +149,8 @@ class _TalentState extends State<Talent> {
                       gradient: const LinearGradient (  
                       // colors for gradient
                       colors: [ 
-                        Colors.orange,
-                        Color.fromARGB(255, 255, 201, 120),
+                        Colors.brown,
+                        Colors.brown,
                       ],
                     ),
                       borderRadius: BorderRadius.circular(20),
@@ -235,8 +235,8 @@ class _TalentState extends State<Talent> {
                       gradient: const LinearGradient (  
                       // colors for gradient
                       colors: [ 
-                        Color.fromARGB(255, 247, 110, 156),
-                        Color.fromARGB(255, 253, 143, 135),
+                        Colors.blue,
+                        Colors.blue,
                       ],
                     ),
                       borderRadius: BorderRadius.circular(20),
@@ -321,8 +321,8 @@ class _TalentState extends State<Talent> {
                       gradient: const LinearGradient (  
                       // colors for gradient
                       colors: [ 
-                        Colors.purple,
-                        Color.fromARGB(255, 235, 160, 248),
+                        Colors.brown,
+                        Colors.brown,
                       ],
                     ),
                       borderRadius: BorderRadius.circular(20),
